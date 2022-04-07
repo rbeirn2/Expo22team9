@@ -49,7 +49,7 @@ width = 160
 
 
 files = ['damaged', 'intact']
-adress = '/Users/"name"/Desktop/pythonProject/data_top_only/{}' ##"name" replaces the user of the code
+adress = '/Users/"name"/Desktop/pythonProject/data_top_only/{}' ##replace "name" with the user profile
 data_surface = {}
 for f in files:
     data_surface[f]=[]
