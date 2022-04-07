@@ -1,7 +1,5 @@
-Python 3.6.6 (v3.6.6:4cf1f54eb7, Jun 26 2018, 19:50:54) 
-[GCC 4.2.1 Compatible Apple LLVM 6.0 (clang-600.0.57)] on darwin
-Type "copyright", "credits" or "license()" for more information.
->>> import pandas as pd
+
+import pandas as pd
 import numpy as np
 import tensorflow as tf   # fast numerical computing used to create Deep Learning models 
 import matplotlib.pyplot as plt
@@ -38,8 +36,8 @@ width = 160
 height = 90
 
 
-files = ['damaged', 'intact']
-adress = '/Users/"name"/Desktop/pythonProject/data_side_only/{}'
+files = ['damaged', 'intact'] #calling the category of images from the dataset
+adress = '/Users/"name"/Desktop/pythonProject/data_side_only/{}' #directory of of dataset 
 
 
 # Use chdir() to change the directory ; format columns
