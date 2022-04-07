@@ -46,7 +46,7 @@ width = 160
 
 
 files = ['damaged', 'intact'] #calling the category where the dataset of images is in
-adress = '/Users/"name"/Desktop/pythonProject/data_top_only/{}' ##replace "name" with the user profile
+adress = '/Users/"name"/Desktop/pythonProject/data_top_only/{}' #directory of the dataset
 data_surface = {}
 for f in files:
     data_surface[f]=[]
