@@ -37,7 +37,7 @@ height = 90
 
 
 files = ['damaged', 'intact'] #calling the category of images from the dataset
-adress = '/Users/"name"/Desktop/pythonProject/data_side_only/{}' #directory of of dataset 
+adress = '/Users/"name"/Desktop/pythonProject/data_side_only/{}' #directory of the dataset 
 
 
 # Use chdir() to change the directory ; format columns
