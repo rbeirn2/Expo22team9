@@ -49,7 +49,7 @@ width = 160
 
 
 files = ['damaged', 'intact']
-adress = '/Users/aniab/Desktop/pythonProject/data_top_only/{}'
+adress = '/Users/"name"/Desktop/pythonProject/data_top_only/{}' ##"name" replaces the user of the code
 data_surface = {}
 for f in files:
     data_surface[f]=[]
@@ -69,7 +69,7 @@ image_data = []
 image_target = []
 
 for title in files:
-    os.chdir('/Users/aniab/Desktop/pythonProject/data_top_only/{}'.format(title))
+    os.chdir('/Users/"name"/Desktop/pythonProject/data_top_only/{}'.format(title))
     counter = 0
     for i in data_surface[title]:
         img = cv2.imread(i,0)
