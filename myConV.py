@@ -1,7 +1,4 @@
-Python 3.6.6 (v3.6.6:4cf1f54eb7, Jun 26 2018, 19:50:54) 
-[GCC 4.2.1 Compatible Apple LLVM 6.0 (clang-600.0.57)] on darwin
-Type "copyright", "credits" or "license()" for more information.
->>> import os
+import os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'  #from internet
 import keras.losses
 import pandas as pd
@@ -48,7 +45,7 @@ height = 90
 width = 160
 
 
-files = ['damaged', 'intact']
+files = ['damaged', 'intact'] #calling the category where the dataset of images is in
 adress = '/Users/"name"/Desktop/pythonProject/data_top_only/{}' ##replace "name" with the user profile
 data_surface = {}
 for f in files:
