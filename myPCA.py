@@ -39,7 +39,7 @@ height = 90
 
 
 files = ['damaged', 'intact']
-adress = '/Users/aniab/Desktop/pythonProject/data_side_only/{}'
+adress = '/Users/"name"/Desktop/pythonProject/data_side_only/{}'
 
 
 # Use chdir() to change the directory ; format columns
@@ -72,7 +72,7 @@ image_target = []
 # calculate the time of resizing
 
 for title in files:
-    os.chdir('/Users/aniab/Desktop/pythonProject/data_side_only/{}'.format(title))
+    os.chdir('/Users/"name"/Desktop/pythonProject/data_side_only/{}'.format(title))
     counter = 0
     for i in data_surface[title]:
         img = cv2.imread(i,0)
