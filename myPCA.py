@@ -36,7 +36,7 @@ width = 160
 height = 90
 
 
-files = ['damaged', 'intact'] #calling the category of images from the dataset
+files = ['damaged', 'intact'] ##calling the category where the dataset of images is in
 adress = '/Users/"name"/Desktop/pythonProject/data_side_only/{}' #directory of the dataset 
 
 
